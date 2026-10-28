@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTech CSE Weekly Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #ffffff;
+        }
+
+        .table-container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-weight: normal;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #777;
+            padding: 12px 8px;
+            font-size: 16px;
+            color: #222;
+        }
+
+        th {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        tr td:first-child {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        /* Specific column widths to match the layout closely */
+        th:first-child { width: 15%; }
+        th:not(:first-child) { width: 17%; }
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+    <h2>Semester III Class Shedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9 - 10 AM</th>
+                <th>10 - 11 AM</th>
+                <th>11 - 12 AM</th>
+                <th>12 - 1 PM</th>
+                <th>2 - 3 PM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Data Structures</td>
+                <td>DBMS</td>
+                <td colspan="2">Data Structures Lab</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Operating Systems</td>
+                <td>Computer Networks</td>
+                <td colspan="2">Data Structures Lab</td>
+                <td>Web Technology</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>DBMS</td>
+                <td>Data Structures</td>
+                <td>Mathematics</td>
+                <td>Operating Systems</td>
+                <td>Computer Networks</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Web Technology</td>
+                <td>DBMS</td>
+                <td colspan="2">Lunch Break</td>
+                <td>Data Structures</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Computer Networks</td>
+                <td>Operating Systems</td>
+                <td>DBMS</td>
+                <td>Web Technology</td>
+                <td>Programming Labs</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
+Use code with caution.
+Would you like help adding color coding to the subjects or making the layout responsive for mobile devices?
+    
+AI can make mistakes, so double-check responses
+            
